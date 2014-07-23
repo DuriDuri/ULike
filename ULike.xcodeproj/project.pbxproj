@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172B5012FB0C44FF90D5D088 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 192BE98E9DE741C8BAA372F7 /* libPods.a */; };
 		68169099196CC3E800AC340B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68169098196CC3E800AC340B /* Foundation.framework */; };
 		6816909B196CC3E800AC340B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6816909A196CC3E800AC340B /* CoreGraphics.framework */; };
 		6816909D196CC3E800AC340B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6816909C196CC3E800AC340B /* UIKit.framework */; };
@@ -14,14 +15,23 @@
 		681690A5196CC3E900AC340B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 681690A4196CC3E800AC340B /* main.m */; };
 		681690A9196CC3E900AC340B /* VONAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 681690A8196CC3E900AC340B /* VONAppDelegate.m */; };
 		681690AC196CC3E900AC340B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681690AA196CC3E900AC340B /* Main.storyboard */; };
-		681690AF196CC3E900AC340B /* VONFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681690AE196CC3E900AC340B /* VONFirstViewController.m */; };
-		681690B2196CC3E900AC340B /* VONSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681690B1196CC3E900AC340B /* VONSecondViewController.m */; };
 		681690B4196CC3E900AC340B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681690B3196CC3E900AC340B /* Images.xcassets */; };
 		681690BB196CC3E900AC340B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681690BA196CC3E900AC340B /* XCTest.framework */; };
 		681690BC196CC3E900AC340B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68169098196CC3E800AC340B /* Foundation.framework */; };
 		681690BD196CC3E900AC340B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6816909C196CC3E800AC340B /* UIKit.framework */; };
 		681690C5196CC3E900AC340B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 681690C3196CC3E900AC340B /* InfoPlist.strings */; };
 		681690C7196CC3E900AC340B /* ULikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 681690C6196CC3E900AC340B /* ULikeTests.m */; };
+		681690D2196CC4F000AC340B /* VONLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681690D1196CC4F000AC340B /* VONLoginViewController.m */; };
+		681690D6196D2CB900AC340B /* VONConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 681690D5196D2CB900AC340B /* VONConstants.m */; };
+		6857CBBF197ECB0900B4F912 /* VONMatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6857CBBE197ECB0900B4F912 /* VONMatchesViewController.m */; };
+		6857CBC3197EF22C00B4F912 /* VONChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6857CBC2197EF22C00B4F912 /* VONChatViewController.m */; };
+		686EF53B196EDBFD0027C4AA /* VONHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686EF53A196EDBFD0027C4AA /* VONHomeViewController.m */; };
+		686EF540196EE7550027C4AA /* VONSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686EF53F196EE7550027C4AA /* VONSettingsViewController.m */; };
+		686EF544196EEFAC0027C4AA /* VONEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686EF543196EEFAC0027C4AA /* VONEditProfileViewController.m */; };
+		686EF54B196EF48F0027C4AA /* VONProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 686EF54A196EF48F0027C4AA /* VONProfileViewController.m */; };
+		68BC138B197D723800EFD955 /* VONTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BC138A197D723800EFD955 /* VONTestUser.m */; };
+		68BC138D197D73E300EFD955 /* astronaut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68BC138C197D73E300EFD955 /* astronaut.jpg */; };
+		68D796FE197E021B0026F640 /* VONMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D796FD197E021B0026F640 /* VONMatchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		192BE98E9DE741C8BAA372F7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		68169095196CC3E800AC340B /* ULike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ULike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68169098196CC3E800AC340B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6816909A196CC3E800AC340B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +57,34 @@
 		681690A7196CC3E900AC340B /* VONAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VONAppDelegate.h; sourceTree = "<group>"; };
 		681690A8196CC3E900AC340B /* VONAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VONAppDelegate.m; sourceTree = "<group>"; };
 		681690AB196CC3E900AC340B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		681690AD196CC3E900AC340B /* VONFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VONFirstViewController.h; sourceTree = "<group>"; };
-		681690AE196CC3E900AC340B /* VONFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VONFirstViewController.m; sourceTree = "<group>"; };
-		681690B0196CC3E900AC340B /* VONSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VONSecondViewController.h; sourceTree = "<group>"; };
-		681690B1196CC3E900AC340B /* VONSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VONSecondViewController.m; sourceTree = "<group>"; };
 		681690B3196CC3E900AC340B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		681690B9196CC3E900AC340B /* ULikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ULikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		681690BA196CC3E900AC340B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		681690C2196CC3E900AC340B /* ULikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ULikeTests-Info.plist"; sourceTree = "<group>"; };
 		681690C4196CC3E900AC340B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		681690C6196CC3E900AC340B /* ULikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ULikeTests.m; sourceTree = "<group>"; };
+		681690D0196CC4F000AC340B /* VONLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONLoginViewController.h; sourceTree = "<group>"; };
+		681690D1196CC4F000AC340B /* VONLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONLoginViewController.m; sourceTree = "<group>"; };
+		681690D4196D2CB900AC340B /* VONConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONConstants.h; sourceTree = "<group>"; };
+		681690D5196D2CB900AC340B /* VONConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONConstants.m; sourceTree = "<group>"; };
+		6857CBBD197ECB0900B4F912 /* VONMatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONMatchesViewController.h; sourceTree = "<group>"; };
+		6857CBBE197ECB0900B4F912 /* VONMatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONMatchesViewController.m; sourceTree = "<group>"; };
+		6857CBC1197EF22C00B4F912 /* VONChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONChatViewController.h; sourceTree = "<group>"; };
+		6857CBC2197EF22C00B4F912 /* VONChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONChatViewController.m; sourceTree = "<group>"; };
+		686EF539196EDBFD0027C4AA /* VONHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONHomeViewController.h; sourceTree = "<group>"; };
+		686EF53A196EDBFD0027C4AA /* VONHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONHomeViewController.m; sourceTree = "<group>"; };
+		686EF53E196EE7550027C4AA /* VONSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONSettingsViewController.h; sourceTree = "<group>"; };
+		686EF53F196EE7550027C4AA /* VONSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONSettingsViewController.m; sourceTree = "<group>"; };
+		686EF542196EEFAC0027C4AA /* VONEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONEditProfileViewController.h; sourceTree = "<group>"; };
+		686EF543196EEFAC0027C4AA /* VONEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONEditProfileViewController.m; sourceTree = "<group>"; };
+		686EF549196EF48F0027C4AA /* VONProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONProfileViewController.h; sourceTree = "<group>"; };
+		686EF54A196EF48F0027C4AA /* VONProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONProfileViewController.m; sourceTree = "<group>"; };
+		68BC1389197D723800EFD955 /* VONTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONTestUser.h; sourceTree = "<group>"; };
+		68BC138A197D723800EFD955 /* VONTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONTestUser.m; sourceTree = "<group>"; };
+		68BC138C197D73E300EFD955 /* astronaut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = astronaut.jpg; sourceTree = "<group>"; };
+		68D796FC197E021B0026F640 /* VONMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VONMatchViewController.h; sourceTree = "<group>"; };
+		68D796FD197E021B0026F640 /* VONMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VONMatchViewController.m; sourceTree = "<group>"; };
+		A7FC1BAD63BD4C45B483411E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +95,7 @@
 				6816909B196CC3E800AC340B /* CoreGraphics.framework in Frameworks */,
 				6816909D196CC3E800AC340B /* UIKit.framework in Frameworks */,
 				68169099196CC3E800AC340B /* Foundation.framework in Frameworks */,
+				172B5012FB0C44FF90D5D088 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +119,7 @@
 				681690C0196CC3E900AC340B /* ULikeTests */,
 				68169097196CC3E800AC340B /* Frameworks */,
 				68169096196CC3E800AC340B /* Products */,
+				A7FC1BAD63BD4C45B483411E /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +139,7 @@
 				6816909A196CC3E800AC340B /* CoreGraphics.framework */,
 				6816909C196CC3E800AC340B /* UIKit.framework */,
 				681690BA196CC3E900AC340B /* XCTest.framework */,
+				192BE98E9DE741C8BAA372F7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,10 +150,15 @@
 				681690A7196CC3E900AC340B /* VONAppDelegate.h */,
 				681690A8196CC3E900AC340B /* VONAppDelegate.m */,
 				681690AA196CC3E900AC340B /* Main.storyboard */,
-				681690AD196CC3E900AC340B /* VONFirstViewController.h */,
-				681690AE196CC3E900AC340B /* VONFirstViewController.m */,
-				681690B0196CC3E900AC340B /* VONSecondViewController.h */,
-				681690B1196CC3E900AC340B /* VONSecondViewController.m */,
+				686EF545196EF43A0027C4AA /* Profile */,
+				686EF541196EEF6A0027C4AA /* EditProfile */,
+				681690D3196CC4F600AC340B /* Login */,
+				686EF53D196EE7340027C4AA /* Settings */,
+				68BC1388197D71F600EFD955 /* New User */,
+				686EF538196EDBB00027C4AA /* Home */,
+				6857CBBC197ECAD600B4F912 /* Matches */,
+				6857CBC0197ED35200B4F912 /* Chats */,
+				68D796FB197E01F70026F640 /* Match */,
 				681690B3196CC3E900AC340B /* Images.xcassets */,
 				6816909F196CC3E800AC340B /* Supporting Files */,
 			);
@@ -131,6 +168,9 @@
 		6816909F196CC3E800AC340B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				68BC138C197D73E300EFD955 /* astronaut.jpg */,
+				681690D4196D2CB900AC340B /* VONConstants.h */,
+				681690D5196D2CB900AC340B /* VONConstants.m */,
 				681690A0196CC3E800AC340B /* ULike-Info.plist */,
 				681690A1196CC3E800AC340B /* InfoPlist.strings */,
 				681690A4196CC3E800AC340B /* main.m */,
@@ -157,6 +197,90 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		681690D3196CC4F600AC340B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				681690D0196CC4F000AC340B /* VONLoginViewController.h */,
+				681690D1196CC4F000AC340B /* VONLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		6857CBBC197ECAD600B4F912 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				6857CBBD197ECB0900B4F912 /* VONMatchesViewController.h */,
+				6857CBBE197ECB0900B4F912 /* VONMatchesViewController.m */,
+			);
+			name = Matches;
+			sourceTree = "<group>";
+		};
+		6857CBC0197ED35200B4F912 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				6857CBC1197EF22C00B4F912 /* VONChatViewController.h */,
+				6857CBC2197EF22C00B4F912 /* VONChatViewController.m */,
+			);
+			name = Chats;
+			sourceTree = "<group>";
+		};
+		686EF538196EDBB00027C4AA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				686EF539196EDBFD0027C4AA /* VONHomeViewController.h */,
+				686EF53A196EDBFD0027C4AA /* VONHomeViewController.m */,
+			);
+			name = Home;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		686EF53D196EE7340027C4AA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				686EF53E196EE7550027C4AA /* VONSettingsViewController.h */,
+				686EF53F196EE7550027C4AA /* VONSettingsViewController.m */,
+			);
+			name = Settings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		686EF541196EEF6A0027C4AA /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				686EF542196EEFAC0027C4AA /* VONEditProfileViewController.h */,
+				686EF543196EEFAC0027C4AA /* VONEditProfileViewController.m */,
+			);
+			name = EditProfile;
+			sourceTree = "<group>";
+		};
+		686EF545196EF43A0027C4AA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				686EF549196EF48F0027C4AA /* VONProfileViewController.h */,
+				686EF54A196EF48F0027C4AA /* VONProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		68BC1388197D71F600EFD955 /* New User */ = {
+			isa = PBXGroup;
+			children = (
+				68BC1389197D723800EFD955 /* VONTestUser.h */,
+				68BC138A197D723800EFD955 /* VONTestUser.m */,
+			);
+			name = "New User";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		68D796FB197E01F70026F640 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				68D796FC197E021B0026F640 /* VONMatchViewController.h */,
+				68D796FD197E021B0026F640 /* VONMatchViewController.m */,
+			);
+			name = Match;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 681690CA196CC3E900AC340B /* Build configuration list for PBXNativeTarget "ULike" */;
 			buildPhases = (
+				DF8EFDB8EC7444B9AF7DC0F1 /* Check Pods Manifest.lock */,
 				68169091196CC3E800AC340B /* Sources */,
 				68169092196CC3E800AC340B /* Frameworks */,
 				68169093196CC3E800AC340B /* Resources */,
+				CF9B2B2F353448C1A4C1E66C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				681690B4196CC3E900AC340B /* Images.xcassets in Resources */,
+				68BC138D197D73E300EFD955 /* astronaut.jpg in Resources */,
 				681690A3196CC3E800AC340B /* InfoPlist.strings in Resources */,
 				681690AC196CC3E900AC340B /* Main.storyboard in Resources */,
 			);
@@ -250,15 +377,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CF9B2B2F353448C1A4C1E66C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF8EFDB8EC7444B9AF7DC0F1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68169091196CC3E800AC340B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6857CBC3197EF22C00B4F912 /* VONChatViewController.m in Sources */,
+				68D796FE197E021B0026F640 /* VONMatchViewController.m in Sources */,
+				686EF54B196EF48F0027C4AA /* VONProfileViewController.m in Sources */,
 				681690A9196CC3E900AC340B /* VONAppDelegate.m in Sources */,
+				686EF544196EEFAC0027C4AA /* VONEditProfileViewController.m in Sources */,
+				68BC138B197D723800EFD955 /* VONTestUser.m in Sources */,
+				681690D6196D2CB900AC340B /* VONConstants.m in Sources */,
 				681690A5196CC3E900AC340B /* main.m in Sources */,
-				681690B2196CC3E900AC340B /* VONSecondViewController.m in Sources */,
-				681690AF196CC3E900AC340B /* VONFirstViewController.m in Sources */,
+				686EF540196EE7550027C4AA /* VONSettingsViewController.m in Sources */,
+				686EF53B196EDBFD0027C4AA /* VONHomeViewController.m in Sources */,
+				681690D2196CC4F000AC340B /* VONLoginViewController.m in Sources */,
+				6857CBBF197ECB0900B4F912 /* VONMatchesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +548,7 @@
 		};
 		681690CB196CC3E900AC340B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7FC1BAD63BD4C45B483411E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -393,6 +562,7 @@
 		};
 		681690CC196CC3E900AC340B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7FC1BAD63BD4C45B483411E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -463,6 +633,7 @@
 				681690CC196CC3E900AC340B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		681690CD196CC3E900AC340B /* Build configuration list for PBXNativeTarget "ULikeTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +642,7 @@
 				681690CF196CC3E900AC340B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
